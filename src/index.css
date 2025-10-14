@@ -1,7 +1,7 @@
 @import "tailwindcss";
 :root {
   --background-color: #F9F8F6;
-  --button-color: #FED000;
+  --primary-color: #FED000;
   --black-text-color: #2A2A2A;
   --gray-text-color: #5E5E5E;
   --black-bg-color: #161616;
@@ -9,8 +9,14 @@
 
 @theme{
   --color-background: var(--color-background);
-  --color-button: var(--button-color);
+  --color-primary: var(--primary-color);
   --color-black-text: var(--black-text-color);
   --color-black-bg-color: var(--black-bg-color);
   --color-gray-text: var(--gray-text-color);
+}
+
+body{
+  background-color: var(--background-color);
+  color: var(--gray-text-color);
+  font-family: "Roboto", sans-serif;
 }
