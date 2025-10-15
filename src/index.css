@@ -1,7 +1,7 @@
 @import "tailwindcss";
 :root {
   --background-color: #F9F8F6;
-  --primary-color: #0EB185;
+  --primary-color: #D3AF37;
   --black-text-color: #2A2A2A;
   --gray-text-color: #5E5E5E;
   --black-bg-color: #161616;
@@ -19,4 +19,5 @@ body{
   background-color: var(--background-color);
   color: var(--gray-text-color);
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
