@@ -3,7 +3,7 @@ import Logo from "../icons/Logo";
 
 export default function Header() {
   return <>
-    <header className="w-screen h-max flex flex-col justify-center items-center py-4 fixed z-100 bg-black-bg-color/80">
+    <header className="w-screen h-max flex flex-col justify-center items-center py-4 fixed z-100 glassEffect">
       <div className="w-[80%] h-full flex flex-col justify-between items-center gap-5">
         <div className="w-full h-max flex gap-10 max-sm:gap-2.5 items-center max-sm:flex-col-reverse max-sm:items-center">
           <figure className="flex gap-2.5 items-center">

@@ -6,7 +6,7 @@ interface CardProps {
   title: string
 }
 
-export default function Cards({ text, icon, title }: CardProps) {
+export default function CardAbout({ text, icon, title }: CardProps) {
   return (
     <div className="flex flex-col gap-10 max-w-100 max-sm:max-w-90 bg-black-bg-color text-white py-5 px-10">
       <figure className="flex flex-col justify-center items-center gap-2.5">
