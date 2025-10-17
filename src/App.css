@@ -52,11 +52,41 @@
   }
 }
 
+.appearAnimationFromRight {
+  animation: appearRight 1s ease forwards;
+}
+
+@keyframes appearRight {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .appearAnimationFromBottom {
-  animation: appearBottom 2s ease forwards;
+  animation: appearBottom 1s ease forwards;
 }
 
 @keyframes appearBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.appearAnimationFromTop {
+  animation: appearTop 1s ease forwards;
+}
+
+@keyframes appearTop {
   from {
     opacity: 0;
     transform: translateY(50%);

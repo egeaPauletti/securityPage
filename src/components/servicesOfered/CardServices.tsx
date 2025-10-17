@@ -44,9 +44,9 @@ export default function CardServices({ icon, title, text }: CardServicesProps) {
         <h2 className="text-lg text-primary">{title}</h2>
       </div>
       <p className="w-90">{text}</p>
-      <span className="text-primary cursor-pointer hover:underline transition-all duration-300">
+      {/* <span className="text-primary cursor-pointer hover:underline transition-all duration-300">
         Ver mais...
-      </span>
+      </span> */}
     </div>
   );
 }

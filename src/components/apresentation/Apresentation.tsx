@@ -1,5 +1,5 @@
 import firstBG from '../../assets/backgrounds/firstbg.jpg';
-import Button from "../global/Button";
+import Button from "../ui/Button";
 
 export default function Apresentation() {
   return (

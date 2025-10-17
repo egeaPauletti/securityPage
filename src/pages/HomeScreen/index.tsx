@@ -4,8 +4,8 @@ import { RiVipDiamondLine } from "react-icons/ri";
 import About from "../../components/about/About";
 import CardAbout from "../../components/about/CardAbout";
 import Apresentation from "../../components/apresentation/Apresentation";
+import Contact from "../../components/contact/Contact";
 import Header from "../../components/header/Header";
-import Location from "../../components/location/Location";
 import Services from "../../components/servicesOfered/Services";
 
 export default function HomeScreen() {
@@ -28,7 +28,8 @@ export default function HomeScreen() {
       </div>
       <About />
       <Services />
-      <Location />
+      {/* <Location /> */}
+      <Contact />
     </main>
     <footer></footer>
   </>

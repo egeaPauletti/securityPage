@@ -8,7 +8,7 @@ interface CardProps {
 
 export default function CardAbout({ text, icon, title }: CardProps) {
   return (
-    <div className="flex flex-col gap-10 max-w-100 max-sm:max-w-90 bg-black-bg-color text-white py-5 px-10">
+    <div className="flex flex-col gap-10 max-w-100 max-sm:max-w-90 bg-black-bg-color text-white py-5 px-10 hover:bg-black">
       <figure className="flex flex-col justify-center items-center gap-2.5">
         <div className="text-primary text-3xl max-md:text-2xl">
           {icon}

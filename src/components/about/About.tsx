@@ -1,5 +1,5 @@
-import Button from "../global/Button";
 import Logo from "../icons/Logo";
+import Button from "../ui/Button";
 
 export default function About() {
   return (

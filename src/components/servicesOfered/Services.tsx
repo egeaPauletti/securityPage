@@ -7,7 +7,7 @@ import CardServices from "./CardServices";
 
 export default function Services() {
   return (
-    <div className="w-screen h-max px-30 flex flex-wrap justify-center items-center gap-15 my-50 max-sm:my-30">
+    <div className="w-screen h-max px-30 flex flex-wrap justify-center items-center gap-15 my-50 max-sm:my-30 ">
       <div className="flex flex-col gap-5 bg-black-bg-color px-10 py-15 text-white">
         <span className="text-sm">Nossos Serviços</span>
         <h1 className="text-5xl">Quais Serviços<br /> oferecemos?</h1>
