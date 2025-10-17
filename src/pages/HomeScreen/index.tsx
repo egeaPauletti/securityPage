@@ -5,6 +5,7 @@ import About from "../../components/about/About";
 import CardAbout from "../../components/about/CardAbout";
 import Apresentation from "../../components/apresentation/Apresentation";
 import Contact from "../../components/contact/Contact";
+import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import Questions from "../../components/questions/Questions";
 import Services from "../../components/servicesOfered/Services";
@@ -33,6 +34,6 @@ export default function HomeScreen() {
       <Contact />
       <Questions />
     </main>
-    <footer></footer>
+    <Footer />
   </>
 }

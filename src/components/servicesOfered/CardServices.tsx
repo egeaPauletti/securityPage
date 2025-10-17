@@ -43,7 +43,7 @@ export default function CardServices({ icon, title, text }: CardServicesProps) {
         </figure>
         <h2 className="text-lg text-primary">{title}</h2>
       </div>
-      <p className="w-90 max-sm:w-85">{text}</p>
+      <p className="w-90 max-sm:w-85 text-justify">{text}</p>
       {/* <span className="text-primary cursor-pointer hover:underline transition-all duration-300">
         Ver mais...
       </span> */}

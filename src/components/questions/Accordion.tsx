@@ -35,7 +35,7 @@ export default function Accordion({ question, answer, defaultOpen = false, child
       >
         <div className={`px-4 ${open ? 'py-3' : 'py-0'} text-white`}>
           {children ?? (
-            <p className="text-sm text-gray-text">{answer}</p>
+            <p className="text-sm text-gray-text text-justify">{answer}</p>
           )}
         </div>
       </div>

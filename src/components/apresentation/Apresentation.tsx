@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 export default function Apresentation() {
   return (
-    <div className="w-screen h-screen bg-gray-700">
+    <section id='apresentation' className="w-screen h-screen bg-gray-700">
       <div className="w-full h-full relative flex flex-col">
         <figure className="w-full h-full">
           <div
@@ -19,11 +19,15 @@ export default function Apresentation() {
             <p className="text-white max-w-200 text-base max-md:text-sm max-sm:text-xs max-sm:max-w-60 max-sm:">A TecnoControll oferece tecnologia aliada ao melhor suporte de serviços garantindo tranquilidade e proteção para você, sua empresa ou condomínio.</p>
           </div>
           <div className="flex gap-10">
-            <Button text="Sobre nós" />
-            <Button text="Nossos Serviços" filled />
+            <a href="#about">
+              <Button text="Sobre nós" />
+            </a>
+            <a href="#services">
+              <Button text="Nossos Serviços" filled />
+            </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
